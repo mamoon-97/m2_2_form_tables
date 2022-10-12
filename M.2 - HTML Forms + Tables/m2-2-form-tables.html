@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Student Registration </title>
+        <br> 
+        <div>
+            <img src="C:\Users\mamoo\Desktop\photo\thumbnail.0000000.jpg" width="400" height="300">
+        </div>
+    </head>
+    <body>
+    <header> Please register here ... </header>
+
+    <form action="/check_submission" method="GET">
+<div>
+    <label for="student name"> Student name: </label>
+    <input id="student name" type="text" name="student name">
+</div>
+<div>
+    <label for="date of brith">Date of brith:</label>
+    <input type="date" id="date of birth" name="date">
+</div>
+<div>
+    <label for="weight">Weight:</label>
+    <input type="number" min="40" max="120">
+</div>
+<div>
+    <p>Please enter your gender: </p>
+</div>
+<div>
+    <label for="male"> Male </label>
+    <input type="radio" name="partyanswer" id="maleinput" value="male">
+</div>
+<div>
+    <label for="female">Female </label>
+    <input type="radio" name="partyanswer" id="femaleinput" value="female">
+</div>
+
+<p>...</p>
+<div>
+    <label for="email">Email:</label>
+    <input type="email"name="email" id="">
+</div>
+<div>
+    <label for="phonenumber">Phone number:</label>
+    <input type="number" name="phonenumber" id="">
+</div>
+<div>
+    <label for="city">Select in which city you live:</label>
+    <select id="city" name="city">
+        <option value="amman">Amman</option>
+        <option value="Zarqa">Zarqa</option>
+        <option value="Maraq">Mafraq</option>
+        <option value="Salt">Salt</option>
+        <option value="Karak">Karak</option>
+        <option value="Irbid">Irbid</option>
+        <option value="ajloun">Ajloun</option>
+        <option value="jarash">jarash</option>
+    </select>
+</div>
+<div>
+    <p>What is your favorite color ? </p> 
+    <label for="color">Choose your favorite color:</label>
+    <input type="color" name="color" id="">
+</div>
+<div>
+    <label for="studentcv">Student cv:</label>
+    <input type="file" name="studentcv" id="studentcv">
+</div>
+<div>
+    <label for="checkbox">Can we contact you via email:</label>
+    <input type="checkbox" name="" id="">
+</div>
+
+    </form>
+    <hr>
+    <p>The students information </p> 
+    <table>
+        <thead>
+        <colgroup span="3"></colgroup>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr> 
+        </thead>
+        <tbody>
+        <tr>
+            <th>Ali</th>
+            <th>26</th>
+            <th>Amman </th>
+        </tr>
+        <tr>
+            <th> Mohammad</th>
+            <th>30</th>
+            <th>Irbid</th>
+        </tr>
+        <tr>
+            <th>zaid</th>
+            <th>24</th>
+            <th>Salt</th>
+        </tr>
+        </tbody>
+        
+        
+    </table>
+    
+    </body>
+</html>
